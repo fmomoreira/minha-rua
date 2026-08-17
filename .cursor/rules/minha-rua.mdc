@@ -1,0 +1,15 @@
+---
+description: Contexto permanente do Minha Rua — produto, MVP e limites
+alwaysApply: true
+---
+
+# Minha Rua
+
+Leia `docs/tecnica.md` e `.cursor/skills/minha-rua/SKILL.md` antes de alterar código.
+
+- Produto: cadastro público de casas em São José do Belmonte — PE
+- MVP: foto + endereço completo (rua, bairro, lat, long) + busca por esses campos
+- Backend: Firebase Spark (Firestore, Storage, Hosting). Sem login. Sem Functions
+- Código atual: `index.html` é protótipo empacotado, não é fonte
+- Evolução: HTML/CSS/JS estático. Manter visual terracota `#cf5a28` / fundo `#faf5ee`
+- Não implementar o MVP até o usuário pedir. Quando pedir, use o skill `evoluir-mvp`
